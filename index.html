@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div>
-      <ul>
-        <li>dog</li>
-        <li>cat</li>
-        <li>racoon</li>
-        <li>sheep</li>
-        <li>fox</li>
-      </ul>
-    </div>
-      
-
-  </body>
-</html>
+    Incident Number: ${number} has been assigned to you.
+    Priority: ${priority}
+    Reported Date: ${sys_created_on}
+    Customer: ${caller_id}
+    Agency: ${caller_id.u_agency}
+    Location: ${location}
+    Summary: Short description: ${short_description}
+    Notes: ${description}
+    ${mail_script:incident_take_me_to_the_incident}
